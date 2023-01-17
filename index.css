@@ -31,7 +31,7 @@ li{
 .section{
     background-size: cover;
     background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
-    background-position: center;
+    background-position: center center;
     height: 80vh;
     position: relative;
     color: white;
@@ -76,7 +76,7 @@ i{
 }
 *body{
     font-family: 'Nunito', sans-serif;
-    background-color: aquamarine;
+    
 }
 
 input,button{
@@ -123,7 +123,7 @@ input,button{
     .section{
         font-size: 10px;
         background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
-        background-position: center;
+        background-position:center center;
         height: 50vh;
         position: relative;
         color: white;
@@ -176,35 +176,39 @@ input,button{
     .nav_bar{
         display: flex;
         justify-content: flex-end;
-
+        margin-right: 80px;
+        
     }
     .section{
         background-size: cover;
         width: 100%;
         font-size: 10px;
         background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
-        background-position: center;
         height: 50vh;
         position: relative;
         color: white;
         background-repeat: no-repeat;
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
+        background-position: center center;  
     }
     .abt{
         margin: 120px 100px 200px 30px;
+        
     }
+    
     #name{
         padding: -200px;
     }
     .cards and .coursel{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .foot{
         display: flex;
         flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     }
     .form{
         display: flex;
@@ -215,14 +219,32 @@ input,button{
         flex-direction: column;
     }   
     input{
-        padding: 20px 80px;
+        padding: 20px 10px;
         margin: 20px 10px;
+        margin-left: 20px;
+    }
+    ::placeholder{
+        padding: 20px 10px;
+        margin: 10px 10px;
     }
     .send{
         margin: 10px 15px;
+        margin-left: 20px;
     }
     .coursel{
         justify-content: center;
     }
-    
+    footer {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    nav{
+        position: fixed;
+        z-index: 100;
+        width: 98.8%;
+        margin-right: 20px;
+        margin-top: -10px;
+    }
 }
