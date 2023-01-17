@@ -1,0 +1,228 @@
+.header{
+    display: flex;
+    background-color: rgb(53, 58, 63);
+}
+nav{
+    position: fixed;
+    z-index: 100;
+    width: 98.8%;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.nav_bar {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 20px;
+    margin-left: auto;
+}
+li{
+    padding: 10px 10px;
+    color: white;
+}
+
+.caption{
+    margin:10px 40px 10px 20px; 
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    background-size: cover;
+    background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    position: relative;
+    display: flex;
+    
+}
+.txt{
+ padding: auto;
+ 
+}
+.abt{
+    margin: 100px 100px 150px 100px;
+   
+    
+}
+.send{
+        margin: 10px 20px 20px ;
+        background-color:#9E9E9E ;
+        border-style: none;
+}
+
+.cards and .coursel{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    padding: 20px 10px;
+    margin: 10px 10px;
+}
+::placeholder{
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+i{
+    font-size: 30px;
+}
+*body{
+    font-family: 'Nunito', sans-serif;
+    background-color: aquamarine;
+}
+
+input,button{
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+._border{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.foot{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    flex-direction: row; 
+    background-color:   #EEE6FF;
+    margin-top: -40px;
+}
+
+@media(max-width :414px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        
+    }
+    .header > h4{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .nav_bar{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0 20px 120px;
+    }
+    .section{
+        font-size: 10px;
+        background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
+        background-position: center;
+        height: 50vh;
+        position: relative;
+        color: white;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;  
+    }
+    .abt{
+        margin: 120px 100px 200px 30px;
+    }
+    #name{
+        padding: -200px;
+    }
+    .cards and .coursel{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+    }
+    .form{
+        margin-left: 15px;
+    }
+    .caption{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 20px 100px;
+        margin: 10px auto;
+    }
+    
+}
+@media(max-width :768px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        
+    }
+    .header > h4{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .nav_bar{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .section{
+        background-size: cover;
+        width: 100%;
+        font-size: 10px;
+        background-image: url(./Portraits_byAndreaDomjanPhotography_009.jpg);
+        background-position: center;
+        height: 50vh;
+        position: relative;
+        color: white;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;  
+    }
+    .abt{
+        margin: 120px 100px 200px 30px;
+    }
+    #name{
+        padding: -200px;
+    }
+    .cards and .coursel{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    .form{
+        display: flex;
+    
+    }
+    .caption{
+        display: flex;
+        flex-direction: column;
+    }   
+    input{
+        padding: 20px 80px;
+        margin: 20px 10px;
+    }
+    .send{
+        margin: 10px 15px;
+    }
+    .coursel{
+        justify-content: center;
+    }
+    
+}
